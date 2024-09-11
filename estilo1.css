@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 235, 125);
+}
+
+.cajaArticle {
+    height: 100vh;
+    background-color: rgb(124, 26, 26);
+    border: 2px solid rgb(54, 37, 61);
+}
+
+
+.cajaAside {
+    height: 100vh;
+    background-color: rgb(32, 47, 65);
+    border: 2px solid rgb(72, 48, 82);
+}
+.caja4{
+    background-color: rgb(252, 252, 164);
+    height: 100hv;
+    
+    
+}
+.caja3{
+    background-color: brown;
+    height: 10vh;
+}
+@media (min-width: 100px) and (max-width: 768px) {
+     .cajaAside{
+        display: none;
+     }
+  }
+  @media (min-width: 768px) and (max-width: 5000px) {
+    .caja3{
+       display: none;
+    }
+ }
+ @media (min-width: 576px) and (max-width: 1400px) {
+    .caja4{
+       display: none;
+    }
+ }
